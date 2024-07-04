@@ -1,0 +1,104 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+  }
+  
+
+h1, h2, .tagline, .kf, .Ab {
+  text-align: center;
+}
+
+h3, p, a, strong {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h4 {
+    margin-left: 300px;
+}
+
+
+.logo {
+  display: flex; /* Ensures the container only takes up the necessary width */
+  text-align: center; /* Centers the content within the container */
+  justify-content: center;
+}
+
+.tagline {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.header-bar {
+    
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #2642e0;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #333;
+    width: 80%;
+    margin: 20px auto;
+}
+
+footer {
+    margin-bottom: 20px;
+}
+
+.coverphoto {
+  display: flex;
+ justify-content: center;
+}
+
+
+.deploy {
+  display: flex;
+  justify-content: center;
+}
+
+.deployment-button {
+  background-color: #4CAF50; /* Green background */
+  border: none;              /* Remove borders */
+  color: white;              /* White text */
+  padding: 15px 32px;        /* Some padding */
+  text-align: center;        /* Center the text */
+  text-decoration: none;     /* Remove underline */
+  display: inline-block;     /* Get it to display like a button */
+  font-size: 16px;           /* Increase font size */
+  margin: 4px 2px;           /* Some margin */
+  cursor: pointer;           /* Pointer/hand icon on hover */
+  border-radius: 12px;       /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.deployment-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
